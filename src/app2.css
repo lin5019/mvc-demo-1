@@ -1,0 +1,30 @@
+.app2 {
+    padding: 10px;
+    text-align: center;
+}
+.app2 .tab-bar {
+    display: flex;
+}
+.tab-bar>li {
+    flex: auto;
+    border: 1px solid gray;
+
+}
+.tab-bar .current{
+    background: sandybrown;
+    color: #fff;
+}
+
+.tab-bar li:first-child {
+    border-right: none;
+}
+.tab-content {
+    border: 1px solid gray;
+    border-top: none;
+}
+.tab-content>li {
+    display: none;
+}
+.tab-content .show {
+    display: block;
+}
